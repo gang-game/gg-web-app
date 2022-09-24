@@ -29,4 +29,4 @@ const HeaderProfileInfo = () => {
     )
 }
 
-export default Header;
+export { Header };
