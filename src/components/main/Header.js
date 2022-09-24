@@ -5,6 +5,7 @@ const Header = () => {
     return (
         <header className={"hat"}>
             <HeaderLogo />
+            <HeaderProfileInfo />
         </header>
     )
 }
@@ -16,6 +17,14 @@ const HeaderLogo = () => {
             <a href={"/"}>
                 Gang Game
             </a>
+        </div>
+    )
+}
+
+const HeaderProfileInfo = () => {
+    return (
+        <div className={"profile-info"}>
+
         </div>
     )
 }
