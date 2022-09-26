@@ -1,0 +1,38 @@
+.sign-in-field{
+    position: relative;
+    margin-top: 20px;
+
+    width: 80%;
+    left: 10%;
+}
+
+.sign-in-field .sign-in-field-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F5F5F5;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sign-in-field input{
+    width: 100%;
+    background: #655F66;
+    border: 1px solid #867788;
+    border-radius: 10px;
+    color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 4px 4px 4px 10px;
+}
+
+.sign-in-field .additional-info{
+    position: absolute;
+    right: 0;
+    transform: translate(0, -100%);
+    display: inline;
+    width: fit-content;
+    padding-bottom: 5px;
+}

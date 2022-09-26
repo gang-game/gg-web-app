@@ -1,7 +1,7 @@
 header.hat {
     position: fixed;
     width: 100%;
-    background-color: #6A5F6E;
+    background-color: #4E454F;
     height: 70px;
 
     box-shadow: 0 4px 105px 34px rgba(0, 0, 0, 0.25);
@@ -10,6 +10,9 @@ header.hat {
 header.hat .header-logo{
     position: absolute;
     width: fit-content;
+    display: flex;
+
+    text-decoration: none;
 }
 
 header.hat .header-logo img{
@@ -20,17 +23,18 @@ header.hat .header-logo img{
     height: 94px;
     border: 2px solid #CB6BD6;
     border-radius: 90px;
+    background-color: #4E454F;
+
 }
 
-header.hat .header-logo a{
-    position: absolute;
+header.hat .header-logo .name{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    text-decoration: none;
+
     color: #CB6BD6;
     margin-left: 20px;
-    top: 25px;
+    margin-top: 25px;
     width: 200px;
 }
