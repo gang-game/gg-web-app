@@ -1,9 +1,12 @@
+import './NotFoundPage.css'
+import {Link} from "react-router-dom";
+
 
 const NotFoundPage = () => {
     return (
-        <div className={"not-found"}>
+        <Link to={"/"} className={"not-found"}>
             Sorry! Page not found.
-        </div>
+        </Link>
     )
 }
 
